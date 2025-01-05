@@ -1,0 +1,10 @@
+Mumbai Indians,1234,Mumbai Indians,#4178ba,#0e2246,/com/example/kheladhula/images/mi.png,79234579,54765421
+Punjab Kings,1234,Punjab Kings,#C0BFBD,#c72928,/com/example/kheladhula/images/pk.png,87000000,19000000
+Sunrisers Hyderabad,1234,Sunrisers Hyderabad,#F26522,#712325,/com/example/kheladhula/images/srh.png,89000000,17500000
+Delhi Capitals,1234,Delhi Capitals,#b92425,#0e1a48,/com/example/kheladhula/images/dc.png,90000000,17000000
+Gujarat Titans,1234,Gujarat Titans,#6eb9f0,#1a1f36,/com/example/kheladhula/images/gt.png,127001236,-13501236
+Lucknow Super Giants,1234,Lucknow Super Giants,Green,#0d45a5,/com/example/kheladhula/images/lsg.png,85000000,16000000
+Rajasthan Royals,1234,Rajasthan Royals,#e07fae,#143c6e,/com/example/kheladhula/images/rr.png,80000000,15000000
+Kolkata Knight Riders,1234,Kolkata Knight Riders,#ECC542,#281F4A,/com/example/kheladhula/images/kkr.png,100000000,20000000
+Royal Challengers Bangalore,1234,Royal Challengers Bangalore,#2B2A29,#732126,/com/example/kheladhula/images/rcb.png,95000000,18000000
+Chennai Super Kings,1234,Chennai Super Kings,#FFCB05,#141B2D,/com/example/kheladhula/images/csk.png,120000000,25000000

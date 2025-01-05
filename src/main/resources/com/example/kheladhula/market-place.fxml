@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kheladhula.MarketPlaceController">
+    <children>
+        <AnchorPane fx:id="anchorBackground1" layoutY="167.0" prefHeight="554.0" prefWidth="317.0" style="-fx-background-color: #281F4A;">
+            <children>
+                <Label fx:id="LabelClubName" layoutX="60.0" layoutY="152.0" prefHeight="46.0" prefWidth="223.0" text="Kolkata Knight Riders" textFill="WHITE">
+                    <font>
+                        <Font name="Agency FB Bold" size="29.0" />
+                    </font>
+                </Label>
+                <Label fx:id="balance" layoutX="60.0" layoutY="198.0" text="Balance:" textFill="WHITE">
+                    <font>
+                        <Font name="Agency FB Bold" size="26.0" />
+                    </font>
+                </Label>
+                <Label fx:id="netWorth" layoutX="61.0" layoutY="241.0" text="Net Worth: " textFill="WHITE">
+                    <font>
+                        <Font name="Agency FB Bold" size="26.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="anchorBackground" prefHeight="314.0" prefWidth="318.0" style="-fx-background-color: #e0c23c; -fx-background-radius: 0 0 1000 1000;">
+            <children>
+                <ImageView fx:id="imageLogo" fitHeight="198.0" fitWidth="155.0" layoutX="82.0" layoutY="53.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@images/gt.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="buttonBack" layoutX="23.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToDashboard" prefHeight="31.0" prefWidth="74.0" text="Back">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <Label fx:id="labelMyClub" layoutX="350.0" layoutY="17.0" prefHeight="31.0" prefWidth="172.0" text="My Club">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="736.0" layoutY="53.0" text="Market Place" textFill="#281F4A">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="labelWarning" layoutX="348.0" layoutY="87.0" prefHeight="26.0" prefWidth="162.0" textFill="RED">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+      <ListView fx:id="playerListView" layoutX="326.0" layoutY="100.0" prefHeight="602.0" prefWidth="946.0" />
+    </children>
+</AnchorPane>

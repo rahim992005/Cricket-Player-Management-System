@@ -1,0 +1,27 @@
+Punjab Kings,Jasprit Bumrah,India,30,1.78,Mumbai Indians,Bowler,93,17500000,true
+Punjab Kings,Cameron Green,Australia,25,1.93,Mumbai Indians,Allrounder,25,21000000,true
+Punjab Kings,Ishan Kishan,India,26,1.68,Mumbai Indians,Wicketkeeper,23,20000000,true
+Sunrisers Hyderabad,Jasprit Bumrah,India,30,1.78,Mumbai Indians,Bowler,93,17500000,true
+Sunrisers Hyderabad,Cameron Green,Australia,25,1.93,Mumbai Indians,Allrounder,25,21000000,true
+Sunrisers Hyderabad,Ishan Kishan,India,26,1.68,Mumbai Indians,Wicketkeeper,23,20000000,true
+Gujarat Titans,Jasprit Bumrah,India,30,1.78,Mumbai Indians,Bowler,93,17500000,true
+Gujarat Titans,Cameron Green,Australia,25,1.93,Mumbai Indians,Allrounder,25,21000000,true
+Gujarat Titans,Ishan Kishan,India,26,1.68,Mumbai Indians,Wicketkeeper,23,20000000,true
+Delhi Capitals,Jasprit Bumrah,India,30,1.78,Mumbai Indians,Bowler,93,17500000,true
+Delhi Capitals,Cameron Green,Australia,25,1.93,Mumbai Indians,Allrounder,25,21000000,true
+Delhi Capitals,Ishan Kishan,India,26,1.68,Mumbai Indians,Wicketkeeper,23,20000000,true
+Lucknow Super Giants,Jasprit Bumrah,India,30,1.78,Mumbai Indians,Bowler,93,17500000,true
+Lucknow Super Giants,Cameron Green,Australia,25,1.93,Mumbai Indians,Allrounder,25,21000000,true
+Lucknow Super Giants,Ishan Kishan,India,26,1.68,Mumbai Indians,Wicketkeeper,23,20000000,true
+Rajasthan Royals,Jasprit Bumrah,India,30,1.78,Mumbai Indians,Bowler,93,17500000,true
+Rajasthan Royals,Cameron Green,Australia,25,1.93,Mumbai Indians,Allrounder,25,21000000,true
+Rajasthan Royals,Ishan Kishan,India,26,1.68,Mumbai Indians,Wicketkeeper,23,20000000,true
+Royal Challengers Bangalore,Jasprit Bumrah,India,30,1.78,Mumbai Indians,Bowler,93,17500000,true
+Royal Challengers Bangalore,Cameron Green,Australia,25,1.93,Mumbai Indians,Allrounder,25,21000000,true
+Royal Challengers Bangalore,Ishan Kishan,India,26,1.68,Mumbai Indians,Wicketkeeper,23,20000000,true
+Kolkata Knight Riders,Jasprit Bumrah,India,30,1.78,Mumbai Indians,Bowler,93,17500000,true
+Kolkata Knight Riders,Cameron Green,Australia,25,1.93,Mumbai Indians,Allrounder,25,21000000,true
+Kolkata Knight Riders,Ishan Kishan,India,26,1.68,Mumbai Indians,Wicketkeeper,23,20000000,true
+Chennai Super Kings,Jasprit Bumrah,India,30,1.78,Mumbai Indians,Bowler,93,17500000,true
+Chennai Super Kings,Cameron Green,Australia,25,1.93,Mumbai Indians,Allrounder,25,21000000,true
+Chennai Super Kings,Ishan Kishan,India,26,1.68,Mumbai Indians,Wicketkeeper,23,20000000,true

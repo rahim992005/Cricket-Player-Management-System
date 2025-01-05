@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kheladhula.DashboardController">
+   <children>
+      <AnchorPane fx:id="anchorBackground1" layoutY="167.0" prefHeight="554.0" prefWidth="317.0" style="-fx-background-color: #281F4A;">
+         <children>
+            <Label fx:id="LabelClubName" layoutX="60.0" layoutY="152.0" prefHeight="46.0" prefWidth="223.0" text="Kolkata Knight Riders" textFill="WHITE">
+               <font>
+                  <Font name="Agency FB Bold" size="29.0" />
+               </font>
+            </Label>
+            <Label fx:id="balance" layoutX="60.0" layoutY="198.0" text="Balance:" textFill="WHITE">
+               <font>
+                  <Font name="Agency FB Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="netWorth" layoutX="60.0" layoutY="233.0" text="Net Worth: " textFill="WHITE">
+               <font>
+                  <Font name="Agency FB Bold" size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="buttonMyPlayers" layoutX="47.0" layoutY="345.0" mnemonicParsing="false" onAction="#setButtonMyPlayers" prefHeight="38.0" prefWidth="218.0" text="My Players">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <MenuButton fx:id="buttonOtherClubs" alignment="CENTER" layoutX="47.0" layoutY="390.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="218.0" text="Other Clubs">
+               <items>
+                  <MenuItem fx:id="kkr" mnemonicParsing="false" text="Kolkata Knight Riders" />
+                  <MenuItem fx:id="rcb" mnemonicParsing="false" text="Royal Challengers Bangalore" />
+                  <MenuItem fx:id="rr" mnemonicParsing="false" text="Rajasthan Royals" />
+                  <MenuItem fx:id="csk" mnemonicParsing="false" text="Chennai Super Kings" />
+                  <MenuItem fx:id="dc" mnemonicParsing="false" text="Delhi Capitals" />
+                  <MenuItem fx:id="mi" mnemonicParsing="false" text="Mumbai Indians" />
+                  <MenuItem fx:id="lsg" mnemonicParsing="false" text="Lucknow Super Giants" />
+                  <MenuItem fx:id="pk" mnemonicParsing="false" text="Punjab Kings" />
+                  <MenuItem fx:id="srh" mnemonicParsing="false" text="Sunrisers Hyderabad" />
+                  <MenuItem fx:id="gt" mnemonicParsing="false" text="Gujarat Titans" />
+               </items>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </MenuButton>
+            <Button fx:id="buttonMarketplace" layoutX="47.0" layoutY="437.0" mnemonicParsing="false" onAction="#switchToMarketplace" prefHeight="38.0" prefWidth="218.0" text="Marketplace">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonMarketplace1" layoutX="47.0" layoutY="482.0" mnemonicParsing="false" onAction="#switchToSigningPlayer" prefHeight="38.0" prefWidth="218.0" text="Signing New Player">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="anchorBackground" prefHeight="314.0" prefWidth="317.0" style="-fx-background-color: #e0c23c; -fx-background-radius: 0 0 1000 1000;">
+         <children>
+            <ImageView fx:id="imageLogo" fitHeight="198.0" fitWidth="155.0" layoutX="82.0" layoutY="53.0" pickOnBounds="true">
+               <image>
+                  <Image url="@images/gt.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <MenuButton fx:id="myprofile" layoutX="1167.0" layoutY="19.0" mnemonicParsing="false" text="My Profile">
+        <items>
+          <MenuItem fx:id="myProfileMyClub" mnemonicParsing="false" onAction="#setButtonMyPlayers" text="My Club" />
+            <SeparatorMenuItem mnemonicParsing="false" text="KKR" />
+          <MenuItem fx:id="menuItemChangePassword" mnemonicParsing="false" onAction="#onChangePassword" text="Change Password" />
+            <MenuItem fx:id="menuItemLogout" mnemonicParsing="false" onAction="#onLogout" text="Log out" />
+        </items>
+      </MenuButton>
+      <TextField fx:id="minSalary" layoutX="565.0" layoutY="20.0" onAction="#applyFilters" promptText="Minimum Salary" />
+      <TextField fx:id="maxSalary" layoutX="727.0" layoutY="20.0" onAction="#applyFilters" promptText="Maximum Salary" />
+      <MenuButton layoutX="1073.0" layoutY="19.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="78.0" text="Country">
+         <items>
+            <CheckMenuItem fx:id="cmAnyCountry" mnemonicParsing="false" onAction="#applyFilters" selected="true" text="Any Country" />
+            <CheckMenuItem fx:id="cmAfghanistan" mnemonicParsing="false" onAction="#applyFilters" text="Afghanistan" />
+            <CheckMenuItem fx:id="cmAustralia" mnemonicParsing="false" onAction="#applyFilters" text="Australia" />
+            <CheckMenuItem fx:id="cmBangladesh" mnemonicParsing="false" onAction="#applyFilters" text="Bangladesh" />
+            <CheckMenuItem fx:id="cmEngland" mnemonicParsing="false" onAction="#applyFilters" text="England" />
+            <CheckMenuItem fx:id="cmIndia" mnemonicParsing="false" onAction="#applyFilters" text="India" />
+            <CheckMenuItem fx:id="cmNewZealand" mnemonicParsing="false" onAction="#applyFilters" text="Newzeland" />
+            <CheckMenuItem fx:id="cmPakistan" mnemonicParsing="false" onAction="#applyFilters" text="Pakistan" />
+            <CheckMenuItem fx:id="cmSouthAfrica" mnemonicParsing="false" onAction="#applyFilters" text="South Africa" />
+            <CheckMenuItem fx:id="cmSriLanka" mnemonicParsing="false" onAction="#applyFilters" text="Srilanka" />
+            <CheckMenuItem fx:id="cmWestIndies" mnemonicParsing="false" onAction="#applyFilters" text="West Indies" />
+         </items>
+      </MenuButton>
+      <MenuButton layoutX="986.0" layoutY="19.0" mnemonicParsing="false" text="Position">
+         <items>
+            <CheckMenuItem fx:id="cmAnyPosition" mnemonicParsing="false" onAction="#applyFilters" selected="true" text="Any" />
+            <CheckMenuItem fx:id="cmBatsman" mnemonicParsing="false" onAction="#applyFilters" text="Batsman" />
+            <CheckMenuItem fx:id="cmAllRounder" mnemonicParsing="false" onAction="#applyFilters" text="Allrounder" />
+            <CheckMenuItem fx:id="cmWicketKeeper" mnemonicParsing="false" onAction="#applyFilters" text="Wicket-Keeper" />
+            <CheckMenuItem fx:id="cmBowler" mnemonicParsing="false" onAction="#applyFilters" text="Bowler" />
+         </items>
+      </MenuButton>
+      <MenuButton layoutX="889.0" layoutY="20.0" mnemonicParsing="false" text="Maximum">
+         <items>
+            <MenuItem fx:id="maxAge" mnemonicParsing="false" onAction="#getMaxAge" text="Age" />
+            <MenuItem fx:id="maxHeight" mnemonicParsing="false" onAction="#getMaxHeight" text="Height" />
+            <MenuItem fx:id="highestSalary" mnemonicParsing="false" onAction="#getHighestSalaryPlayer" text="Salary" />
+         </items>
+      </MenuButton>
+      <Label fx:id="labelMyClub" layoutX="350.0" layoutY="17.0" prefHeight="31.0" prefWidth="172.0" text="My Club">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="searchPlayer" layoutX="565.0" layoutY="57.0" onAction="#getsearchPlayer" prefHeight="26.0" prefWidth="312.0" promptText="Search by name" />
+      <ListView fx:id="playerListView" editable="true" fixedCellSize="100.0" layoutX="327.0" layoutY="143.0" prefHeight="559.0" prefWidth="945.0" />
+   </children>
+</AnchorPane>
