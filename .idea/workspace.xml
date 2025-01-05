@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d173febe-e4f7-4c4b-af4f-ad09fbd36a1a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/kheladhula/Server.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2q8WslAKfWmpz7tcnhhbDSLqskm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainApplication (1).executor": "Run",
+    "Application.MainApplication.executor": "Run",
+    "Application.Server.executor": "Run",
+    "Application.Team1.executor": "Run",
+    "Application.Team2.executor": "Run",
+    "Application.Team3.executor": "Run",
+    "Application.kheladhula (1).executor": "Run",
+    "Application.kheladhula.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "E:/java project 1-2/Kheladhula/src/main/java/com/example/kheladhula",
+    "last_opened_file_path": "E:/java project 1-2/Kheladhula",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.kheladhula" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java project 1-2\Kheladhula\src\main\resources\com\example\kheladhula" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java project 1-2\Kheladhula\src\main\resources\com\example\kheladhula" />
+      <recent name="E:\java project 1-2\Kheladhula\src\main\resources\com\example\kheladhula\Text File" />
+      <recent name="E:\java project 1-2\Kheladhula\src\main\resources\com\example\kheladhula\Fxml File" />
+      <recent name="E:\java project 1-2\Kheladhula\src\main\resources\com\example\kheladhula\FXML File" />
+      <recent name="E:\java project 1-2\Kheladhula\src\main\resources\com\example\kheladhula\images" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.kheladhula" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Team3">
+    <configuration name="Server" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.kheladhula.Server" />
+      <module name="Kheladhula" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.kheladhula.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Team1" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="com.example.kheladhula.MainApplication" />
+      <module name="Kheladhula" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\openjfx-21.0.5_windows-x64_bin-sdk\javafx-sdk-21.0.5\lib&quot; --add-modules javafx.controls,javafx.fxml " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.kheladhula.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Team2" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="com.example.kheladhula.MainApplication" />
+      <module name="Kheladhula" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\openjfx-21.0.5_windows-x64_bin-sdk\javafx-sdk-21.0.5\lib&quot; --add-modules javafx.controls,javafx.fxml " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.kheladhula.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Team3" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="com.example.kheladhula.MainApplication" />
+      <module name="Kheladhula" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\openjfx-21.0.5_windows-x64_bin-sdk\javafx-sdk-21.0.5\lib&quot; --add-modules javafx.controls,javafx.fxml " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.kheladhula.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Team1" />
+      <item itemvalue="Application.Team2" />
+      <item itemvalue="Application.Team3" />
+      <item itemvalue="Application.Server" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d173febe-e4f7-4c4b-af4f-ad09fbd36a1a" name="Changes" comment="" />
+      <created>1734044895985</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734044895985</updated>
+      <workItem from="1734044896639" duration="1971000" />
+      <workItem from="1734047071017" duration="1736000" />
+      <workItem from="1734048828351" duration="8831000" />
+      <workItem from="1734067314970" duration="23753000" />
+      <workItem from="1734116354232" duration="4787000" />
+      <workItem from="1734145636155" duration="25991000" />
+      <workItem from="1734188090878" duration="1035000" />
+      <workItem from="1734189845419" duration="2144000" />
+      <workItem from="1734236529251" duration="1032000" />
+      <workItem from="1734309389973" duration="24271000" />
+      <workItem from="1734353153288" duration="660000" />
+      <workItem from="1734415880715" duration="1184000" />
+      <workItem from="1734453712476" duration="1173000" />
+      <workItem from="1734455941384" duration="1252000" />
+      <workItem from="1734492947923" duration="20304000" />
+      <workItem from="1734578167843" duration="3117000" />
+      <workItem from="1734584707250" duration="1510000" />
+      <workItem from="1734757893399" duration="18634000" />
+      <workItem from="1734831200898" duration="1146000" />
+      <workItem from="1734858180539" duration="1153000" />
+      <workItem from="1734859895923" duration="15566000" />
+      <workItem from="1734919941298" duration="27330000" />
+      <workItem from="1734948789521" duration="194000" />
+      <workItem from="1734953478256" duration="8982000" />
+      <workItem from="1734969450521" duration="933000" />
+      <workItem from="1734972641229" duration="549000" />
+      <workItem from="1735004293807" duration="8475000" />
+      <workItem from="1735016347474" duration="666000" />
+      <workItem from="1735089964952" duration="190000" />
+      <workItem from="1735090198484" duration="3505000" />
+      <workItem from="1735094485250" duration="5107000" />
+      <workItem from="1735120019337" duration="802000" />
+      <workItem from="1735182619996" duration="9138000" />
+      <workItem from="1735193238760" duration="59000" />
+      <workItem from="1735193338511" duration="925000" />
+      <workItem from="1735260574031" duration="2028000" />
+      <workItem from="1735262623165" duration="5329000" />
+      <workItem from="1735280859280" duration="2763000" />
+      <workItem from="1735286709564" duration="647000" />
+      <workItem from="1735291051712" duration="4299000" />
+      <workItem from="1735301897657" duration="2119000" />
+      <workItem from="1735311964968" duration="486000" />
+      <workItem from="1735346295431" duration="2438000" />
+      <workItem from="1735351708249" duration="8309000" />
+      <workItem from="1735433950525" duration="18697000" />
+      <workItem from="1735475371635" duration="1621000" />
+      <workItem from="1735477026328" duration="11542000" />
+      <workItem from="1735519706816" duration="766000" />
+      <workItem from="1735535073915" duration="12236000" />
+      <workItem from="1735711682583" duration="2612000" />
+      <workItem from="1735714552178" duration="2563000" />
+      <workItem from="1735723100412" duration="4699000" />
+      <workItem from="1735879141977" duration="4339000" />
+      <workItem from="1735892707928" duration="976000" />
+      <workItem from="1735959665903" duration="10242000" />
+      <workItem from="1735981048298" duration="1287000" />
+      <workItem from="1735989547392" duration="4018000" />
+      <workItem from="1735995301150" duration="252000" />
+      <workItem from="1735995562644" duration="196000" />
+      <workItem from="1736013017118" duration="1029000" />
+      <workItem from="1736035587208" duration="4565000" />
+      <workItem from="1736041652722" duration="8620000" />
+      <workItem from="1736050484685" duration="1869000" />
+      <workItem from="1736052425409" duration="375000" />
+      <workItem from="1736054021520" duration="477000" />
+      <workItem from="1736054509789" duration="4213000" />
+      <workItem from="1736063552837" duration="1138000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
