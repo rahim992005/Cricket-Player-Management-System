@@ -1,0 +1,52 @@
+Sam Curran,England,26,1.75,Punjab Kings,Allrounder,58,20000000,false
+Shikhar Dhawan,India,38,1.8,Punjab Kings,Batsman,42,17000000,false
+Kagiso Rabada,South Africa,29,1.91,Punjab Kings,Bowler,-1,19000000,false
+Suryakumar Yadav,India,34,1.78,Mumbai Indians,Batsman,63,17000000,false
+Jasprit Bumrah,India,30,1.78,Mumbai Indians,Bowler,93,17500000,false
+Ishan Kishan,India,26,1.68,Mumbai Indians,Wicketkeeper,23,20000000,false
+Cameron Green,Australia,25,1.93,Mumbai Indians,Allrounder,25,21000000,false
+Tim David,Australia,28,1.96,Mumbai Indians,Allrounder,21,15000000,false
+Rohit Sharma,India,37,1.74,Mumbai Indians,Batsman,45,19000000,false
+Rahim Hasan,Bangladesh,22,2.0,Mumbai Indians,Batsman,12,1234567,false
+Bhuvneshwar Kumar,India,34,1.78,Sunrisers Hyderabad,Bowler,15,14000000,false
+Aiden Markram,South Africa,30,1.83,Sunrisers Hyderabad,Allrounder,16,16000000,false
+Washington Sundar,India,25,1.75,Sunrisers Hyderabad,Allrounder,5,14000000,false
+David Warner,Australia,37,1.7,Delhi Capitals,Batsman,31,15000000,false
+Kuldeep Yadav,India,29,1.74,Delhi Capitals,Bowler,23,15000000,false
+Axar Patel,India,30,1.83,Delhi Capitals,Allrounder,20,17500000,false
+Mitchell Marsh,Australia,33,1.91,Delhi Capitals,Allrounder,31,18000000,false
+Prithvi Shaw,India,24,1.68,Delhi Capitals,Batsman,100,12000000,false
+Mustafizur Rahman,Bangladesh,29,1.8,Delhi Capitals,Bowler,90,14000000,false
+Rashid Khan,Afghanistan,26,1.78,Gujarat Titans,Bowler,19,16000000,false
+Shubman Gill,India,25,1.78,Gujarat Titans,Batsman,77,15000000,false
+Mohammed Shami,India,34,1.73,Gujarat Titans,Bowler,-1,14000000,false
+Hardik Pandya,India,30,1.83,Gujarat Titans,Allrounder,33,18500000,false
+Kane Williamson,New Zealand,34,1.83,Gujarat Titans,Batsman,22,16000000,false
+Rifat,Bangladesh,19,1.0,Gujarat Titans,Bowler,111,1234,false
+KL Rahul,India,32,1.8,Lucknow Super Giants,Wicketkeeper,1,18500000,false
+Nicholas Pooran,West Indies,29,1.83,Lucknow Super Giants,Wicketkeeper,-1,16500000,false
+Marcus Stoinis,Australia,35,1.85,Lucknow Super Giants,Allrounder,17,17500000,false
+Quinton de Kock,South Africa,31,1.7,Lucknow Super Giants,Wicketkeeper,12,16000000,false
+Krunal Pandya,India,33,1.8,Lucknow Super Giants,Allrounder,24,16000000,false
+Jos Buttler,England,34,1.8,Rajasthan Royals,Wicketkeeper,63,17500000,false
+Yuzvendra Chahal,India,33,1.7,Rajasthan Royals,Bowler,3,15000000,false
+Sanju Samson,India,30,1.79,Rajasthan Royals,Wicketkeeper,9,17000000,false
+Trent Boult,New Zealand,35,1.85,Rajasthan Royals,Bowler,18,17500000,false
+Rassie van der Dussen,South Africa,35,1.87,Rajasthan Royals,Batsman,78,15000000,false
+Andre Russell,West Indies,36,1.88,Kolkata Knight Riders,Allrounder,-1,18000000,false
+Pat Cummins,Australia,31,1.92,Kolkata Knight Riders,Bowler,30,17500000,false
+Sunil Narine,West Indies,36,1.8,Kolkata Knight Riders,Allrounder,74,18000000,false
+Venkatesh Iyer,India,29,1.88,Kolkata Knight Riders,Allrounder,19,16000000,false
+Lockie Ferguson,New Zealand,33,1.85,Kolkata Knight Riders,Bowler,69,17500000,false
+Litton Das,Bangladesh,30,1.7,Kolkata Knight Riders,Wicketkeeper,16,10000000,false
+Virat Kohli,India,35,1.75,Royal Challengers Bangalore,Batsman,18,17000000,false
+Glenn Maxwell,Australia,35,1.82,Royal Challengers Bangalore,Allrounder,32,18500000,false
+Faf du Plessis,South Africa,40,1.78,Royal Challengers Bangalore,Batsman,18,17500000,false
+Dinesh Karthik,India,39,1.7,Royal Challengers Bangalore,Wicketkeeper,21,16000000,false
+Mohammed Siraj,India,30,1.79,Royal Challengers Bangalore,Bowler,-1,17000000,false
+Harshal Patel,India,33,1.75,Royal Challengers Bangalore,Bowler,-1,15000000,false
+Ravindra Jadeja,India,35,1.73,Chennai Super Kings,Allrounder,8,16500000,false
+MS Dhoni,India,43,1.78,Chennai Super Kings,Wicketkeeper,7,20000000,false
+Deepak Chahar,India,32,1.79,Chennai Super Kings,Bowler,-1,15000000,false
+Shivam Dube,India,31,1.83,Chennai Super Kings,Allrounder,25,13000000,false
+Ruturaj Gaikwad,India,27,1.78,Chennai Super Kings,Batsman,31,15000000,false

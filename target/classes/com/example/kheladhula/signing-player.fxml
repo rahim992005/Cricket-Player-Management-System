@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kheladhula.SigningPlayerController">
+    <children>
+        <AnchorPane fx:id="anchorBackground1" layoutY="167.0" prefHeight="554.0" prefWidth="317.0" style="-fx-background-color: #281F4A;">
+            <children>
+                <Label fx:id="labelClubName" layoutX="60.0" layoutY="152.0" prefHeight="46.0" prefWidth="223.0" text="Kolkata Knight Riders" textFill="WHITE">
+                    <font>
+                        <Font name="Agency FB Bold" size="29.0" />
+                    </font>
+                </Label>
+                <Label fx:id="balance" layoutX="60.0" layoutY="198.0" text="Balance:" textFill="WHITE">
+                    <font>
+                        <Font name="Agency FB Bold" size="26.0" />
+                    </font>
+                </Label>
+                <Label fx:id="netWorth" layoutX="61.0" layoutY="241.0" text="Net Worth: " textFill="WHITE">
+                    <font>
+                        <Font name="Agency FB Bold" size="26.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="anchorBackground" prefHeight="314.0" prefWidth="318.0" style="-fx-background-color: #e0c23c; -fx-background-radius: 0 0 1000 1000;">
+            <children>
+                <ImageView fx:id="imageLogo" fitHeight="198.0" fitWidth="155.0" layoutX="82.0" layoutY="53.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@images/gt.png" />
+                    </image>
+                </ImageView>
+            <Button fx:id="buttonBack" layoutX="23.0" layoutY="14.0" mnemonicParsing="false" onAction="#setButtonBack" prefHeight="31.0" prefWidth="74.0" text="Back">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+        <Label fx:id="labelMyClub" layoutX="350.0" layoutY="17.0" prefHeight="31.0" prefWidth="172.0" text="My Club">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Label>
+
+        <!-- Form for Adding a New Player -->
+        <AnchorPane layoutX="348.0" layoutY="114.0" prefHeight="554.0" prefWidth="902.0" style="-fx-background-color: #f4f4f4; -fx-border-color: #281F4A; -fx-border-width: 2;">
+            <children>
+                <Label layoutX="21.0" layoutY="14.0" prefHeight="26.0" prefWidth="155.0" text="Player Name*">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font></Label>
+                <TextField fx:id="textFieldPlayerName" layoutX="21.0" layoutY="49.0" prefHeight="50.0" prefWidth="362.0">
+               <font>
+                  <Font size="22.0" />
+               </font></TextField>
+            <Label layoutX="21.0" layoutY="108.0" prefHeight="35.0" prefWidth="155.0" text="Country*">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="218.0" prefHeight="35.0" prefWidth="155.0" text="Club Name">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textFieldClubName" disable="true" layoutX="21.0" layoutY="263.0" prefHeight="50.0" prefWidth="362.0" promptText="Kolkata Knight Riders">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </TextField>
+            <Label layoutX="21.0" layoutY="328.0" prefHeight="35.0" prefWidth="155.0" text="Position*">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="440.0" prefHeight="35.0" prefWidth="155.0" text="Weekly Salary*">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textFieldWeeklySalary" layoutX="21.0" layoutY="485.0" prefHeight="50.0" prefWidth="362.0">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </TextField>
+            <Label layoutX="513.0" layoutY="218.0" prefHeight="35.0" prefWidth="155.0" text="Age*">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textFieldAge" layoutX="513.0" layoutY="263.0" prefHeight="50.0" prefWidth="362.0">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </TextField>
+            <Label layoutX="513.0" layoutY="328.0" prefHeight="35.0" prefWidth="155.0" text="Height*">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textFieldHeight" layoutX="513.0" layoutY="373.0" prefHeight="50.0" prefWidth="362.0">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </TextField>
+            <Label layoutX="513.0" layoutY="440.0" prefHeight="35.0" prefWidth="155.0" text="Jersey Number">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textFieldJersyNumber" layoutX="513.0" layoutY="485.0" prefHeight="50.0" prefWidth="362.0">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </TextField>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="513.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/pp2.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="510.0" layoutY="22.0" prefHeight="35.0" prefWidth="155.0" text="Photo">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <Line endX="16.4000244140625" endY="465.0" layoutX="434.0" layoutY="61.0" startX="16.4000244140625" startY="-24.600006103515625" />
+            <MenuButton fx:id="menuButtonPosition" layoutX="21.0" layoutY="371.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="366.0" text="Select One">
+              <items>
+                <MenuItem fx:id="miBatsman" mnemonicParsing="false" onAction="#setMenuButtonPosition" text="Batsman" />
+                <MenuItem fx:id="miBowler" mnemonicParsing="false" onAction="#setMenuButtonPosition" text="Bowler" />
+                  <MenuItem fx:id="miAllrounder" mnemonicParsing="false" onAction="#setMenuButtonPosition" text="All-Rounder" />
+                  <MenuItem fx:id="miWicketkeeper" mnemonicParsing="false" onAction="#setMenuButtonPosition" text="Wicket-Keeper" />
+              </items>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </MenuButton>
+            <MenuButton fx:id="menuButtonCountry" layoutX="21.0" layoutY="156.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="366.0" text="Select One">
+               <items>
+                  <MenuItem fx:id="miAfghanistan" mnemonicParsing="false" onAction="#setMenuButtonCountry" text="Afghanistan" />
+                  <MenuItem fx:id="miAustralia" mnemonicParsing="false" onAction="#setMenuButtonCountry" text="Australia" />
+                  <MenuItem fx:id="miBangladesh" mnemonicParsing="false" onAction="#setMenuButtonCountry" text="Bangladesh" />
+                  <MenuItem fx:id="miEngland" mnemonicParsing="false" onAction="#setMenuButtonCountry" text="England" />
+                  <MenuItem fx:id="miIndia" mnemonicParsing="false" onAction="#setMenuButtonCountry" text="India" />
+                  <MenuItem fx:id="miNewzealand" mnemonicParsing="false" onAction="#setMenuButtonCountry" text="New Zealand" />
+                  <MenuItem fx:id="miPakistan" mnemonicParsing="false" onAction="#setMenuButtonCountry" text="Pakistan" />
+                  <MenuItem fx:id="miSouthafrica" mnemonicParsing="false" onAction="#setMenuButtonCountry" text="South Africa" />
+                  <MenuItem fx:id="miSrilanka" mnemonicParsing="false" onAction="#setMenuButtonCountry" text="Srilanka" />
+                  <MenuItem fx:id="miWestindies" mnemonicParsing="false" onAction="#setMenuButtonCountry" text="West Indies" />
+               </items>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </MenuButton>
+            </children>
+        </AnchorPane>
+          <Label layoutX="709.0" layoutY="40.0" text="Signing New Player" textFill="#281F4A">
+              <font>
+                  <Font size="24.0" />
+              </font>
+          </Label>
+
+          <Button fx:id="buttonSubmit" layoutX="739.0" layoutY="681.0" mnemonicParsing="false" onAction="#setButtonSubmit" prefHeight="31.0" prefWidth="111.0" text="Submit" />
+      <Label fx:id="labelWarning" layoutX="348.0" layoutY="75.0" prefHeight="26.0" prefWidth="422.0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
