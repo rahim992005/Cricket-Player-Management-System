@@ -333,19 +333,20 @@ class ClientHandler extends Thread {
         // Update the player in Server.allPlayers
         for (Player p : Server.allPlayers) {
             if (p.getName().equals(player.getName())) {
-                p.setIsMarketPlace(true);
+                Server.allPlayers.remove(p);
+                Player updatedPlayer = new Player(player.getName(), p.getCountry(), p.getAge(), p.getHeight(), p.getClub(), p.getPosition(), p.getNumber(), p.getWeeklySalary(), true);
+                Server.allPlayers.add(updatedPlayer);
                 break;
             }
         }
 
-        // Update the player in Server.clubwisePlayers
+// Update the player in Server.clubwisePlayers
         synchronized (Server.clubwisePlayers) {
             for (Player p : Server.clubwisePlayers.get(sellerClub)) {
                 if (p.getName().equals(player.getName())) {
-                    Player player1 = new Player(player.getName(), p.getCountry(), p.getAge(), p.getHeight(), p.getClub(), p.getPosition(), p.getNumber(), p.getWeeklySalary(),true);
-                    //p.setIsMarketPlace(true);
+                    Player updatedPlayer = new Player(player.getName(), p.getCountry(), p.getAge(), p.getHeight(), p.getClub(), p.getPosition(), p.getNumber(), p.getWeeklySalary(), true);
                     Server.clubwisePlayers.get(sellerClub).remove(p);
-                    Server.clubwisePlayers.get(sellerClub).add(player1);
+                    Server.clubwisePlayers.get(sellerClub).add(updatedPlayer);
                     break;
                 }
             }
@@ -376,13 +377,21 @@ class ClientHandler extends Thread {
         String sellerClub = player.getClub();
         for (Player p : Server.clubwisePlayers.get(sellerClub)) {
             if (p.getName().equals(playerName)) {
-                Player player1 = new Player(playerName, p.getCountry(), p.getAge(), p.getHeight(),buyerClub, p.getPosition(), p.getNumber(), p.getWeeklySalary(),false);
-                //p.setIsMarketPlace(true);
+                Player updatedPlayer = new Player(playerName, p.getCountry(), p.getAge(), p.getHeight(), buyerClub, p.getPosition(), p.getNumber(), p.getWeeklySalary(), false);
                 Server.clubwisePlayers.get(sellerClub).remove(p);
-                Server.clubwisePlayers.get(buyerClub).add(player1);
+                Server.clubwisePlayers.get(buyerClub).add(updatedPlayer);
                 break;
             }
         }
 
+        // Update the player in Server.allPlayers
+        for (Player p : Server.allPlayers) {
+            if (p.getName().equals(playerName)) {
+                Server.allPlayers.remove(p);
+                Player updatedPlayer = new Player(playerName, p.getCountry(), p.getAge(), p.getHeight(), buyerClub, p.getPosition(), p.getNumber(), p.getWeeklySalary(), false);
+                Server.allPlayers.add(updatedPlayer);
+                break;
+            }
+        }
     }
 }
