@@ -16,7 +16,7 @@
             <Font name="Arial Bold" size="65.0" />
          </font>
       </Label>
-      <TextField fx:id="clubCodeField" layoutX="498.0" layoutY="301.0" prefHeight="67.0" prefWidth="746.0" promptText="Enter Club Code" text="Mumbai Indians">
+      <TextField fx:id="clubCodeField" layoutX="498.0" layoutY="301.0" prefHeight="67.0" prefWidth="746.0" promptText="Enter Club Code">
          <font>
             <Font size="31.0" />
          </font>
@@ -50,7 +50,7 @@
             </Label>
          </children>
       </AnchorPane>
-      <PasswordField fx:id="passwordField" layoutX="498.0" layoutY="391.0" prefHeight="66.0" prefWidth="748.0" promptText="Enter Password" text="1234">
+      <PasswordField fx:id="passwordField" layoutX="498.0" layoutY="391.0" prefHeight="66.0" prefWidth="748.0" promptText="Enter Password">
          <font>
             <Font size="31.0" />
          </font>
